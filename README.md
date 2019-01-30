@@ -1,6 +1,8 @@
 # Demo
 patch-1 readme
 
-##Maintainers
+## Maintainers
 
 Lauren Benson
+
+# LIsence
