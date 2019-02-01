@@ -8,4 +8,4 @@ pr:
   -'azure-pipelines'
 
 steps:
-  script: 'dotnet restore --project ./Demo/Demo.sln'
+  script: 'dotnet restore ./Demo/Demo.sln'
