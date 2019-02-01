@@ -2,10 +2,11 @@ pool:
   vmImage: 'Ubuntu-16.04'
 
 trigger:
-- master
+  - master
 
 pr:
-  -'azure-pipelines'
+  - 'azure-pipelines'
 
 steps:
-  script: 'dotnet restore ./Demo/Demo.sln'
+  - script: 'dotnet restore ./Demo/Demo.sln'
+  - script: 'dotnet build ./Demo/Demo.sln'
